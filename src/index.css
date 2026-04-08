@@ -11,12 +11,21 @@ body {
 .tilt {
     font-family: "Tilt Warp", sans-serif;
 }
-/* টেক্সটের ভেতর দিয়ে ইমেজ দেখার জন্য */
 .outline-text {
-    color: transparent; /* টেক্সটের ভেতরের রং স্বচ্ছ করে দেবে */
-    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.6); /* সাদা বর্ডার বা আউটলাইন */
+    color: transparent; 
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.6); 
     font-family: "Tilt Warp", sans-serif;
-    /* ফিগমা অনুযায়ী ফন্ট চেক করে নিন */
 }
 
-/* যদি আপনি চান কিছু অংশ একটু হালকা সাদা থাকবে */
+@keyframes spin-slow {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 8s linear infinite;
+}
