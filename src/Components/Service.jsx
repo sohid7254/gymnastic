@@ -37,7 +37,7 @@ const Service = () => {
                     <button
                         type="submit"
                         className="bg-white rounded-full text-black font-bold px-2 md:px-10 py-2 md:py-3 
-                            hover:bg-gray-100 transition text-sm md:text-base"
+                            hover:bg-gray-300 transition text-sm md:text-base"
                     >
                         SUBSCRIBE
                     </button>

@@ -20,7 +20,7 @@ const ChoseUs = () => {
 
                 <div className="border bg-black text-white p-6 rounded-3xl flex flex-col lg:flex-row gap-10 justify-center items-center">
                     {/* Boxer Image */}
-                    <img src={boxer} alt="Boxer" className="w-60 md:w-80 lg:w-90" />
+                    <img src={boxer} alt="Boxer" className="w-60 md:w-80 lg:w-90 transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:brightness-110 rounded-xl" />
 
                     {/* Training Focus Areas */}
                     <div className="flex flex-col gap-6 lg:w-1/3">
