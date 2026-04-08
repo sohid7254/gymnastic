@@ -23,7 +23,7 @@ const ChoseUs = () => {
                     <img src={boxer} alt="Boxer" className="w-60 md:w-80 lg:w-90 transform transition duration-500 hover:scale-105 hover:shadow-2xl hover:brightness-110 rounded-xl" />
 
                     {/* Training Focus Areas */}
-                    <div className="flex flex-col gap-6 lg:w-1/3">
+                    <div className="flex flex-col gap-6 lg:w-1/3 space-y-3">
                         <h3 className="text-xl md:text-2xl font-bold">Training Focus Areas:</h3>
                         <div className="text-gray-300">
                             <h2 className="text-base md:text-lg font-semibold">Strength & Conditioning</h2>
