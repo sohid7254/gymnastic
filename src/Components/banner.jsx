@@ -56,6 +56,7 @@ const Banner = () => {
                             <button className="bg-[#1a1a1a] hover:bg-[#85b839] border border-[#333] shadow-xl text-white px-8 py-4 rounded-xl text-base sm:text-lg font-bold flex items-center gap-2 transform hover:-translate-y-1 transition duration-300">
                                 SHOP NOW <span className="text-white font-black">→</span>
                             </button>
+               
                             <button className="bg-[#1a1a1a] hover:bg-[#85b839] border border-[#333] shadow-xl text-white p-4 rounded-xl transform hover:-translate-y-1 transition duration-300">
                                 <IoLocationSharp className="text-2xl sm:text-3xl text-white" />
                             </button>
