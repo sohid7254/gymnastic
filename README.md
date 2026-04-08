@@ -1,5 +1,7 @@
 # 🏋️ Gymnastic Web App
 
+**🔗 Live Demo:** [https://gymnastic-chi.vercel.app/](https://gymnastic-chi.vercel.app/)
+
 A sleek, visually-focused React web application built for fitness enthusiasts. Featuring premium dark-mode aesthetic styling, comprehensive authentication flows, and dynamic, interactive layouts to showcase gym services and nutrition products.
 
 ## 🚀 Features
