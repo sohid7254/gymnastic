@@ -7,9 +7,9 @@ import stroke from '../assets/stroke.png';
 const ChoseUs = () => {
     return (
         <>
-            <section className="flex flex-col lg:flex-row items-center justify-between mt-5 gap-6">
-                <img src={group4} alt="Why Choose Us" className="" />
-                <img src={group4} alt="Why Choose Us" className=" rotate-270 lg:mr-12" />
+            <section className="flex items-center justify-between mt-5 gap-6">
+                <img src={group4} alt="Why Choose Us" className="w-10 h-10 sm:w-18 sm:h-18 md:w-20 md:h-18 lg:w-20 lg:h-18" />
+                <img src={group4} alt="Why Choose Us" className="rotate-270 lg:mr-12 w-10 h-10 sm:w-18 sm:h-18 md:w-20 md:h-18 lg:w-20 lg:h-18" />
             </section>
 
             <section className="mt-5">
