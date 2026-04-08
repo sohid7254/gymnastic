@@ -70,7 +70,7 @@ const Review = () => {
                 {/* Image positioned higher */}
                 <img src={group4} alt="Why Choose Us" className="w-10 h-10 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-20 lg:h-20 lg:ml-6 -mt-6" />
             </div>
-            <section className=" rounded-2xl bg-[#d1d1d1] p-6 mt-5">
+            <section className=" rounded-3xl bg-[#d1d1d1] p-6 mt-5">
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {reviews.map((review) => (
                         <div key={review.id} className="border bg-[#000000] text-white rounded-2xl p-4">
