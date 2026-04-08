@@ -63,6 +63,9 @@ const ChoseUs = () => {
                         </div>
                     </div>
                 </div>
+                <div>
+                    <img src={group4} alt="Why Choose Us" className="rotate-160 lg:ml-25 w-10 h-10 sm:w-18 sm:h-18 md:w-20 md:h-18 lg:w-25 lg:h-20" />
+                </div>
             </section>
         </>
     );
