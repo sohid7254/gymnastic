@@ -17,8 +17,8 @@ const Banner = () => {
             <section className="relative -top-23 left-0 h-[805px] overflow-hidden">
                 <div className="">
                     <img src={banner} alt="Banner" className="relative w-" />
-                    <div className="absolute text-white text-center top-1/17 left-105 transform -translate-x-1/2 -translate-y-1/2 w-150  ">
-                        <div className="nav-container border p-3 rounded-full">
+                    <div className="absolute z-50 text-white text-center top-1/17 left-105 transform -translate-x-1/2 -translate-y-1/2 w-150  ">
+                        <div className="nav-container border p-3 rounded-full z-50">
                             <ul className="nav-links font-bold flex items-center justify-between gap-5">
                                 <li>
                                     <a href="/">Home</a>
@@ -29,7 +29,7 @@ const Banner = () => {
                                 <li>|</li>
                                 <li>
                                     <label className="input rounded-full cursor-pointer bg-[#404040] w-40">
-                                        <input type="search" placeholder="Search" />
+                                        <input type="search" placeholder="Search" className="pointer-events-auto flex-1 px-3 py-2 text-white bg-transparent focus:outline-none" />
                                         <IoSearch className="text-3xl" />
                                     </label>
                                 </li>
@@ -60,7 +60,7 @@ const Banner = () => {
                         <img src={group7} alt="Group 7" className="w-20 block" />
                     </div>
                     <div className="absolute -top-1 left-78 z-10">
-                        <img src={man} alt="Man" className="w-225 max-h-[750px] relative object-contain block" />
+                        <img src={man} alt="Man" className="w-225 max-h-[805px] relative object-contain block" />
                     </div>
                     <h3 className="absolute top-89 left-60 transform translate-x-65 translate-y-1/7 text-[110px]  leading-[0.9] text-white z-20 outline-text">
                         POWER YOUR <br />
