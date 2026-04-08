@@ -1,10 +1,9 @@
-import React from 'react';
+import React from "react";
+import Banner from "../Components/banner";
 
 const LandingPage = () => {
     return (
-        <div>
-            <h3>Hello World</h3>
-        </div>
+        <Banner/>
     );
 };
 
