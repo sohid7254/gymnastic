@@ -14,9 +14,9 @@ import { FaXTwitter } from "react-icons/fa6";
 const Banner = () => {
     return (
         <>
-            <section className="relative -top-23 left-0 ">
+            <section className="relative -top-23 left-0 h-[805px] overflow-hidden">
                 <div className="">
-                    <img src={banner} alt="Banner" className="relative w-full" />
+                    <img src={banner} alt="Banner" className="relative w-" />
                     <div className="absolute text-white text-center top-1/17 left-105 transform -translate-x-1/2 -translate-y-1/2 w-150  ">
                         <div className="nav-container border p-3 rounded-full">
                             <ul className="nav-links font-bold flex items-center justify-between gap-5">
@@ -54,13 +54,13 @@ const Banner = () => {
                         </h3>
                     </div>
                     <div className="absolute transform -translate-x-1/2 -translate-y-1/2 top-65 left-1/7  ">
-                        <img src={group2} alt="Group 2" className="w-70" />
+                        <img src={group2} alt="Group 2" className="w-70 block" />
                     </div>
                     <div className="absolute transform translate-x-1/2 -translate-y-1/2 top-38 left-260  ">
-                        <img src={group7} alt="Group 7" className="w-20" />
+                        <img src={group7} alt="Group 7" className="w-20 block" />
                     </div>
                     <div className="absolute -top-1 left-78 z-10">
-                        <img src={man} alt="Man" className="w-225 h-auto relative" />
+                        <img src={man} alt="Man" className="w-225 max-h-[750px] relative object-contain block" />
                     </div>
                     <h3 className="absolute top-89 left-60 transform translate-x-65 translate-y-1/7 text-[110px]  leading-[0.9] text-white z-20 outline-text">
                         POWER YOUR <br />
@@ -79,18 +79,18 @@ const Banner = () => {
                     </div>
                 </div>
 
-                <div className="absolute -top-138 -left-1  h-full relative text-white">
-                    <img src={group3} alt="Group 3" className="w-69 h-auto" />
+                <div className="absolute -top-138 -left-1 relative text-white overflow-hidden">
+                    <img src={group3} alt="Group 3" className="w-69 h-auto block" />
                     <div className="absolute flex justify-center border-2 border-[#a5c96b] rounded-2xl items-center gap-5 p-6 bg-[#85b839] top-59 left-34.5 transform -translate-x-1/2 -translate-y-1/2">
-                        <img src={runing} alt="Running" className="w-15 h-auto  border-2 border-[#a5c96b] rounded-2xl p-1 bg-[#97c257]" />
+                        <img src={runing} alt="Running" className="w-15 h-auto block  border-2 border-[#a5c96b] rounded-2xl p-1 bg-[#97c257]" />
                         <h1>Ground Running</h1>
                     </div>
                     <div className="absolute flex justify-center border-2 border-[#a5c96b] rounded-2xl items-center gap-5 p-6 bg-[#85b839] top-89 left-34.5 transform -translate-x-1/2 -translate-y-1/2">
-                        <img src={yoga} alt="Running" className="w-15 h-auto border-2 border-[#a5c96b] rounded-2xl p-1 bg-[#97c257]" />
+                        <img src={yoga} alt="Running" className="w-15 h-auto block border-2 border-[#a5c96b] rounded-2xl p-1 bg-[#97c257]" />
                         <h1>Yoga Assistance</h1>
                     </div>
                     <div className="absolute flex justify-center border-2 border-[#a5c96b] rounded-b-[40px] rounded-t-2xl items-center gap-5 p-6 bg-[#85b839] top-120 left-34.5 transform -translate-x-1/2 -translate-y-1/2">
-                        <img src={liftup} alt="Running" className="w-15 h-auto border-2 border-[#a5c96b] rounded-2xl p-1 bg-[#97c257]" />
+                        <img src={liftup} alt="Running" className="w-15 h-auto block border-2 border-[#a5c96b] rounded-2xl p-1 bg-[#97c257]" />
                         <h1>Personal Trainer</h1>
                     </div>
                 </div>
